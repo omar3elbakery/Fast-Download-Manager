@@ -1,5 +1,6 @@
 # Fast-Download-Manager
 The Fastest Direck link extractor 
+Only For Termux
 # Installition
 1-
 ```env
