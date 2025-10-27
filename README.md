@@ -8,9 +8,17 @@ termux-setup-storage
 ```
 2-
 ```env
-curl -L -O https://github.com/omar3elbakery/Fast-Download-Manager/releases/download/Download-Manager/Download-Manager.sh
+pkg update -y && pkg upgrade -y
 ```
 3-
+```env
+apt install wget -y
+```
+4-
+```env
+curl -L -O https://github.com/omar3elbakery/Fast-Download-Manager/releases/download/Download-Manager/Download-Manager.sh
+```
+5-
 ```env
 mv Download-Manager.sh DM && chmod +x DM && mv DM /data/data/com.termux/files/usr/bin
 ```
