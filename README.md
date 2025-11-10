@@ -8,7 +8,12 @@ termux-setup-storage
 ```
 2-
 ```env
-curl -L -O https://github.com/omar3elbakery/Fast-Download-Manager/releases/download/Download-Manager/install.sh && bash install.sh
+pkg install wget
+```
+
+3-
+```env
+wget https://github.com/omar3elbakery/Fast-Download-Manager/releases/download/Download-Manager/install.sh && bash install.sh
 ```
 
 # USAGE
