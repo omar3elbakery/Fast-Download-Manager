@@ -8,7 +8,7 @@ termux-setup-storage
 ```
 2-
 ```env
-pkg install wget
+pkg install wget -y
 ```
 
 3-
